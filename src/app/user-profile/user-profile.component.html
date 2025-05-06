@@ -1,0 +1,111 @@
+<br>
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <form [formGroup]="userProfileForm" (ngSubmit)="updateProfle()" >
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" formControlName="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobNumber">Mobile Number</label>
+                        <input type="tel" class="form-control" formControlName="mobNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" class="form-control" formControlName="age">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Dob</label>
+                        <input type="date" class="form-control" formControlName="dob">
+                    </div>
+                    <!-- New Row-->
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="test@email.com"
+                                formControlName="email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">Password</label>
+                            <input type="password" class="form-control" placeholder="password"
+                                formControlName="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" placeholder="123, street"
+                                formControlName="addLine1">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address 2</label>
+                            <input type="text" class="form-control" placeholder="123, street"
+                                formControlName="addLine2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" placeholder="city" formControlName="city">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="state">State</label>
+                             <select id="inputState" class="form-control" formControlName="state">
+                                <option selected>Choose...</option>
+                                <option>Punab</option>
+                                <option>Sindh</option>
+                                <option>Karach</option>
+                                <option>Lahore</option>
+                                </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="zip">Zip Code</label>
+                            <input type="text" class="form-control" placeholder="12345" formControlName="zipCode">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lanuage">Lanuage</label>
+                        <select multiple class="form-control" formControlName="language">
+                            <option>Urdu</option>
+                            <option>English</option>
+                            <option>Hindi</option>
+                            <option>Punjabi</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">gender</label>
+                        <div class="form-check form-check-inline">
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-inline" formControlName="gender" value="Male">
+                            <label for="male" class="form-check-inline">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-inline" formControlName="gender" value="FeMale">
+                            <label for="female" class="form-check-inline">FeMale</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-inline" formControlName="gender" value="Others"
+                            [disabled]="true">
+                            <label for="others" class="form-check-inline">Others</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="aboutyou">About You</label>
+                        <textarea class="form-control" row="3" formControlName="aboutYou"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="uploadPhoto">upload Photo</label>
+                        <input type="file" class="form-control" formControlName="uploadPhoto">
+                    </div>
+                
+                   <div class="form-group">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Update your profile</button>
+
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

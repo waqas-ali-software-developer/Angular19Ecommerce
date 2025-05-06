@@ -1,0 +1,31 @@
+{
+    {
+        "ClientID": null,
+        "FirstName": "BELINDA",
+        "MiddleName": "SAM",
+        "LastName": "KAKOS",
+        "NPI": "1316111263",
+        "Designation": "DO",
+        "StateLicense": "5101017396",
+        "LicenseState": "MI",
+        "SLNStatus": "ACTIVE",
+        "SLNExpirationDate": "12/31/2018",
+        "MidLevelCredential": null,
+        "DEA": [
+            {
+                "DEARegistrationNumber": "FK3131555",
+                "BusinessActivityCode": "C",
+                "BusinessActivitySubCode": "0",
+                "DrugSchedules": "   22N 33N 4 5",
+                "ExpirationDate": "12/31/2020",
+                "Name": "KAKOS, BELINDA",
+                "AdditionalCompanyInfo": "SPARROW HOSPITAL",
+                "Address1": "1215 E. MICHIGAN AVE.",
+                "Address2": null,
+                "City": "LANSING",
+                "State": "MI",
+                "ZipCode": "48912",
+                "DEAStatus": "Active"
+            }
+        ]
+    }

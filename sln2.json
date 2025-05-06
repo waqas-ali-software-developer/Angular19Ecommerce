@@ -1,0 +1,30 @@
+{
+    "ClientID": null,
+    "FirstName": "sd",
+    "MiddleName": "EsdDWARD",
+    "LastName": "LAsdMB",
+    "NPI": "12339062",
+    "Designation": "DdDS",
+    "StateLicense": "DDS20393",
+    "LicenseState": "CfA",
+    "SLNStatus": "ACTIVE",
+    "SLNExpirationDate": "8/30/2020",
+    "MidLevelCredential": null,
+    "DEA": [
+        {
+            "DEARegistrationNumber": "BL24883487",
+            "BusinessActivityCode": "C",
+            "BusinessActivitySubCode": "0",
+            "DrugSchedules": "   33N 44N 4 5",
+            "ExpirationDate": "3/30/2020",
+            "Name": "LAMB, ROTERT E DDS",
+            "AdditionalCompanyInfo": "IDEA FACULTY CLINIC, INC.",
+            "Address1": "1391 WEST HILLSDALE BLVD",
+            "Address2": "SUTE # 133",
+            "City": "TAN TES",
+            "State": "CA",
+            "ZipCode": "94404",
+            "DEAStatus": "Active"
+        }
+    ]
+}

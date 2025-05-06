@@ -1,0 +1,30 @@
+{
+    "ClientID": null,
+    "FirstName": "KRISTEN",
+    "MiddleName": "LYNN",
+    "LastName": "HAVENS",
+    "NPI": "1417243700",
+    "Designation": "NP",
+    "StateLicense": "AP120877",
+    "LicenseState": "TX",
+    "SLNStatus": "ACTIVE",
+    "SLNExpirationDate": "9/30/2019",
+    "MidLevelCredential": "NP",
+    "DEA": [
+        {
+            "DEARegistrationNumber": "MH3467570",
+            "BusinessActivityCode": "M",
+            "BusinessActivitySubCode": "A",
+            "DrugSchedules": "       33N 4 5",
+            "ExpirationDate": "8/31/2020",
+            "Name": "COATS, KRISTEN L  (NP)",
+            "AdditionalCompanyInfo": "GENESIS PRIMECARE",
+            "Address1": "1400 COLLEGE DRIVE",
+            "Address2": null,
+            "City": "TEXARKANA",
+            "State": "TX",
+            "ZipCode": "75503",
+            "DEAStatus": "Active"
+        }
+    ]
+}

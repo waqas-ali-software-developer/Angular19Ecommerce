@@ -1,0 +1,50 @@
+{
+    "NPI": "56793429",
+    "EntityCode": "96",
+    "BusinessName": "SDF B DSF DD",
+    "LastName": "LILI",
+    "FirstName": "MITIT",
+    "MidName": "SDS",
+    "Prefix": "DR.",
+    "Suffix": "DD",
+    "Designation": "T.D.",
+    "ProvOthOrganName": "SS",
+    "Address1": "4545 S FSDF MD",
+    "Address2": "SUITE 666",
+    "City": "CDFEFR",
+    "State": "JK",
+    "ZipCode": "60633718",
+    "Country": "UK",
+    "Phone": "773258347",
+    "Fax": "7732578400",
+    "Licenses": [
+        {
+            "LicenseState": "IL",
+            "LicenseNumber": "345.058679",
+            "Status": "ACE",
+            "ExpirationDate": "9/30/2022",
+            "Designation": "TD"
+        }
+    ],
+    "TaxonomyCode": [
+        "345G00000X",
+		"545G00000X"
+    ],
+    "DEA": [
+        {
+            "DEARegistrationNumber": "GB5518704",
+            "BusinessActivityCode": "G",
+            "BusinessActivitySubCode": "0",
+            "DrugSchedules": "   22N 33N 4 5",
+            "ExpirationDate": "7/31/2019",
+            "Name": "BARRETO, JESSICA N (MD)",
+            "AdditionalCompanyInfo": "JPS DSFSD DSFAS",
+            "Address1": "DSF3 HILL SDF SDF",
+            "Address2": "3308 DEEN SDFS",
+            "City": "D WORTH",
+            "State": "MX",
+            "ZipCode": "345345",
+            "DEAStatus": "Active"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "NPI": "1679885529",
+    "EntityCode": "1",
+    "BusinessName": null,
+    "LastName": "BARRETO",
+    "FirstName": "JESSICA",
+    "MidName": null,
+    "Prefix": null,
+    "Suffix": null,
+    "Designation": "M.D.",
+    "ProvOthOrganName": null,
+    "Address1": "2424 S PULASKI RD",
+    "Address2": null,
+    "City": "CHICAGO",
+    "State": "IL",
+    "ZipCode": "606233718",
+    "Country": "US",
+    "Phone": "7732578347",
+    "Fax": "7732578400",
+    "Licenses": [
+        {
+            "LicenseState": "IL",
+            "LicenseNumber": "125.058679",
+            "Status": null,
+            "ExpirationDate": null,
+            "Designation": null
+        }
+    ],
+    "TaxonomyCode": [
+        "207Q00000X"
+    ],
+    "DEA": [
+        {
+            "DEARegistrationNumber": "FB4417704",
+            "BusinessActivityCode": "C",
+            "BusinessActivitySubCode": "0",
+            "DrugSchedules": "   22N 33N 4 5",
+            "ExpirationDate": "7/31/2019",
+            "Name": "BARRETO, JESSICA N (MD)",
+            "AdditionalCompanyInfo": "JPS HEALTH NETWORK",
+            "Address1": "DIAMOND HILL HEALTH CENTER",
+            "Address2": "3308 DEEN ROAD",
+            "City": "FORT WORTH",
+            "State": "TX",
+            "ZipCode": "76106",
+            "DEAStatus": "Active"
+        }
+    ]
+}
+
+
+
+DEA Number
+Start Date with Time       2019-06-16 00:01:20
+End Date   with Time       2019-06-16 00:01:20

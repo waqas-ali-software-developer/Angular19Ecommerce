@@ -1,0 +1,92 @@
+<br>
+<div class="row">
+    <div class="col-md-10">
+        <strong>All Product List</strong>
+    </div>
+</div>
+<div class="col-md-2">
+    <button class="btn btn-dark float-right" type="button" (click)="addProductPopUp()" data-bs-toggle="modal"
+        data-bs-target="#addEditProductModal">Add Product</button>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">#Display Image</th>
+            <th scope="col">MRP</th>
+            <th scope="col">Discount Price</th>
+            <th scope="col">Description</th>
+            <th scope="col">Status</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product_data of all_product_data; let i = index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{product_data.name}}</td>
+            <td>{{product_data.uploadPhoto}}</td>
+            <td>{{product_data.mrp}}</td>
+            <td>{{product_data.discoutPrice}}</td>
+            <td>{{product_data.productDesc}}</td>
+            <td>{{product_data.status}}</td>
+            <td>
+                <span class="sim-pointer" (click)="editProductPopUp(product_data.id)" data-bs-toggle="modal"
+                    data-bs-target="#addEditProductModal" aria-hidden="true"> Edit</span>
+                <span class="sim-pointer" (click)="deleteProdcut(product_data.id)" aria-hidden="true"> Delete</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div class="modal fade" id="addEditProductModal" tabindex="-1" role="dialog" aria-labelledby="addEditUserTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{popup_header}}</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <form [formGroup]="addEditProductForm">
+                            <div class="form-group">
+                                <label for="productName">Product Name</label>
+                                <input type="text" class="form-control" formControlName="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="productImage">Product Image URL</label>
+                                <input type="text" class="form-control" formControlName="uploadPhoto">
+                            </div>
+                            <div class="form-group">
+                                <label for="productDesc">Product Description</label>
+                                <textarea rows="3" class="form-control" formControlName="productDesc"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="productMrp">Product MRP</label>
+                                <input type="text" class="form-control" formControlName="mrp">
+                            </div>
+                            <div class="form-group">
+                                <label for="productDP">Product Discount Procit</label>
+                                <input type="text" class="form-control" formControlName="discoutPrice">
+                            </div>
+                            <div class="form-group">
+                                <label for="productStatus">Product Status</label>
+                                <select class="form-control" formControlName="status">
+                                    <option value="draft">Draft</option>
+                                    <option value="inactive">inactive</option>
+                                    <option value="publish">Publish</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary" (click)="addNewProduct()" *ngIf="add_product">Add Product</button>
+                                <button class="btn btn-primary" (click)="updateProduct()" *ngIf="edit_product">Update Product</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
